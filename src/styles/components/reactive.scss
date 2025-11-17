@@ -1,0 +1,31 @@
+.animlab {
+    background-color: var(--color-primary);
+    padding: 80px;
+
+    h2 {
+        color: var(--color-black);
+        margin-bottom: 80px;
+        span {
+            color: var(--color-black);
+        }
+    }
+
+    .swiper {
+        .swiper-wrapper {
+        }
+        .swiper-pagination {
+            position: static;
+            --swiper-theme-color: var(--color-white);
+
+            .swiper-pagination-bullet {
+                border-radius: 0px;
+                transform: rotate(45deg);
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+        }
+    }
+}

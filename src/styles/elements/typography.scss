@@ -10,18 +10,20 @@ h5,
 h6 {
     font-family: var(--font-primary);
     line-height: 1;
-    font-weight: bold;
 }
 
 h1 {
     font-size: var(--font-size-h1);
     margin: 0;
     color: var(--color-primary);
+    font-family: var(--font-secondary);
 }
 
 h2 {
     font-size: var(--font-size-h2);
-    font-family: var(--font-secondary);
+    font-family: var(--font-primary);
+    color: rgba($color: #fff, $alpha: 0.55);
+    font-weight: 300;
 }
 
 h3 {
@@ -38,4 +40,22 @@ h5 {
 
 h6 {
     font-size: var(--font-size-h6);
+}
+
+p {
+    font-family: var(--font-primary);
+    font-weight: 300;
+    color: rgba($color: #fff, $alpha: 0.55);
+}
+.semibold {
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.subtitle {
+    font-family: var(--font-primary);
+    font-weight: 300;
+    color: var(--color-white);
+    font-size: typo(18px);
+    margin: 10px 0px;
 }

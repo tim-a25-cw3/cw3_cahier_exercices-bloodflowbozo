@@ -1,0 +1,21 @@
+header {
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        .logo {
+            margin: 0px;
+            color: var(--color-white);
+            font-family: var(--font-primary);
+            font-size: typo(20px);
+        }
+    }
+}

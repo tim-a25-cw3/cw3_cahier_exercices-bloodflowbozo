@@ -1,0 +1,31 @@
+.footer {
+    padding: 50px;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .socials {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            margin-top: 16px;
+
+            svg {
+                color: rgba($color: #fff, $alpha: 0.55);
+            }
+        }
+        p {
+            margin: 0;
+            font-weight: 300;
+            color: rgba($color: #fff, $alpha: 0.55);
+            font-size: typo(18px);
+        }
+
+        .footerTittle {
+            font-size: typo(56px);
+        }
+    }
+}
